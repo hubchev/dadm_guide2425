@@ -1,0 +1,126 @@
+---
+title: "Presentation and Handout Guidelines"
+subtitle: "Data Analysis for Decision-Making"
+
+author:
+    name: "© Prof. Dr. Stephan Huber"
+    email: stephan.huber@hs-fresenius.de
+    affiliation:
+      - name: Hochschule Fresenius - University of Applied Science
+        url: https://hubchev.github.io/
+course: Data Analysis for Decision-Making
+professor: Prof. Dr. Stephan Huber
+date: today
+date-format: long
+
+abstract: "This document outlines the requirements for successfully contributing to the course through an academic presentation. It introduces the available topics, establishes the standards for both delivery and the creation of accompanying handouts, and provides tips how students can effectively meet the expectations and improve their academic skills."
+
+bibliography: "/home/sthu/Dropbox/LIT/LIT_full.bib"
+csl: "https://www.zotero.org/styles/apa"
+format:
+  html: 
+    embed-resources: true
+  pdf: 
+    pdf-engine: pdflatex
+    documentclass: article
+    classoption: [a4paper]
+    fontsize: 11pt
+    geometry:
+      - top=30mm
+      - left=20mm
+      - right=20mm
+      - bottom=30mm
+    colorlinks: true
+    link-citations: true
+
+    
+number-sections: true
+---
+
+# Assessment methods and criteria 
+
+Students complete this module with an academic presentation.
+Mode of the presentation is a in class presentation that takes place during the lecture period. The exact dates are set by the lecturer and communicated via ILIAS. The presentation lasts for a minimum of 10 minutes per student. In addition, a handout should be produced outlining the key theses of the presentation and the literature on which it is based. The length of the handout should be 3-5 pages of text. The handout should be submitted to the lecturer by the date of the presentation at the latest. 
+
+The presentation contributes 65 % to the module grade, the handout contributes 35 %. A passing grade in this module is achieved when the overall grade is greater than or equal to 4.0.
+
+# Topics
+
+The following topics primarily correspond to specific chapters from the book by @Spiegelhalter2019Art. The dates when each presentation will take place are shown in  @tbl-tpcdt. Topics will be randomly assigned to students who have officially registered. I will communicate the assignment on October 17 in class and a bit later on ILIAS.
+
+1. Why are we looking at data anyway? Populations and measurements [@Spiegelhalter2019Art, ch. 3]
+1. What causes what? [@Spiegelhalter2019Art, ch. 4]
+1. What is machine learning? [@Starmer2022StatQuest, ch]
+1. Algorithms, analytics and prediction [@Spiegelhalter2019Art, ch. 6]
+1. Data visualization with R [@Kabacoff2024Modern]
+1. How sure can we be about what is going on? Estimates and intervals [@Spiegelhalter2019Art, ch. 7]
+1. Data manipulation with the R package dplyr [@Wickham2023R]
+1. Probability the language of uncertainty and variability [@Spiegelhalter2019Art, ch. 8]
+1. Putting probability and statistics together [@Spiegelhalter2019Art, ch. 10]
+1. Answering questions and claiming discoveries [@Spiegelhalter2019Art, ch. 11]
+1. Learning from experience the Bayesian Way [@Spiegelhalter2019Art, ch. 12]
+1. How things go wrong [@Spiegelhalter2019Art, ch. 13]
+1. How we can do statistics better  [@Spiegelhalter2019Art, ch. 14]
+
+::: {#tbl-tpcdt}
+| Date       | Topic 1                                               | Topic 2                                           |
+|------------|------------------------------------------------------|---------------------------------------------------|
+| 14.11.2024 | Why are we looking at data anyway?                   | What causes what?                                 |
+| 21.11.2024 | What is machine learning?                             | Algorithms, analytics and prediction               |
+| 28.11.2024 | Data visualization with R                          | How sure can we be about what is going on?           |
+| 05.12.2024 | Data manipulation with the R package dplyr | Probability the language of uncertainty and variability |
+| 12.12.2024 | Putting probability and statistics together           | Answering questions and claiming discoveries       |
+| 19.12.2024 | Learning from experience the Bayesian Way            | How things go wrong                                |
+|     tba.       | How we can do statistics better                      |                                                   |
+
+Topics and dates
+:::
+
+
+
+
+# Content of the presentation and handout
+
+Improve the understanding of your fellow students by providing insights into the topic assigned to you. Given your limited presentation time, it is important that you choose the content carefully. One of your challenges is to identify the most important elements of your topic and prepare them in a way that they can be communicate and understood within the time given. In some cases, your presentation may serve to enlighten the curiosity of the audience and encourage them to study the topic in greater depth on their own. 
+
+Your handout should complement the presentation. 
+
+While you are responsible for the content overall, your submission should include an exercise related to the content you have covered at best with an application of the programming language R. This task should be completed by the students during class immediately following your presentation. This interactive element will enhance engagement and reinforce the material discussed.
+
+# Form of the presentation and the handout
+
+Create a presentation and a handout using Quarto in the format of a standalone website (HTML) and a PDF file. Publish both the website and the handout on GitHub, and share the URLs with the audience so they can access both during your talk. Additionally, please submit the four files on ILIAS. For guidance on creating a standalone HTML file, refer to  [this resource](https://quarto.org/docs/output-formats/html-publishing.html#standalone-html). Additionally, I will explain how Quarto and GitHub work in the lecture.
+
+The design and the layout of the presentation slides are your choice. However, please avoid trying to impress with elaborate layouts or extraneous details. This is an academic presentation, and distracting decorations are inappropriate. Your primary focus should be on effectively communicating information, facts, and insights to the reader. Feel free to include any elements that support this goal. In the presentation, tables and figures don't need to be numbered.
+
+The layout of the handout should be like it is a convention in academic writing as simple as possible. In the handout, all tables and figures should be numbered and the text should refer to them. In case of doubts, please apply the rules and conventions explained in @APA2020Publication. You can use the QMD file of this guide as a template. We will discuss that in the class in greater detail. Moreover, for your handout, please adhere to the following formatting rules: 
+
+- Use the documentclass set to article,
+- on A4 paper, 
+- set the font size to 11pt, and 
+- specify the margins with 30mm at the top and bottom and 20mm on the left and right. 
+
+These guidelines will help maintain a consistent and organized appearance throughout your document.
+
+In any academic work, all sources must be cited. In the presentation and the handout, use the @APA2020Publication citation style, following the 7th Edition. Specifically, use the CSL file ([Citation Style Language](https://citationstyles.org/))  available [here](https://www.zotero.org/styles/apa).
+
+
+# General tips
+
+I refrain from specific advice on good writing, structuring your work, or adhering to academic rules and conventions. Therefore, I recommend the following resources:
+
+- @Nikolov2023Writing: _Writing Tips for Crafting Effective Economics Research Papers_
+- @Cochrane2005: _Writing Tips for Ph. D. Students_
+- @Zinsser2016Writing: _On Writing Well: The Classic Guide to Writing Nonfiction_
+- @StrunkJr1999Elements: _The Elements of Style_
+
+@Nikolov2023Writing and @Cochrane2005 offer excellent and concise guides with numerous tips you shouldn't miss. @Zinsser2016Writing elaborates on how to write in a convincing, clear, and appealing manner. The long-seller @StrunkJr1999Elements focuses on grammar and language and is available online [here](http://www.jlakes.org/ch/web/The-elements-of-style.pdf) or slightly abridged [here](https://assets.uni-augsburg.de/media/filer_public/11/63/1163e0de-57ae-4b3d-8485-7155dc131235/strunkwhite-tipps-stilelemente.pdf).
+
+Moreover, I recommend reading "My Five Cents on How to Write a Thesis" that you find [here](https://raw.githubusercontent.com/hubchev/temp_apa_en/main/fivecents.pdf).
+
+# References
+
+::: {#refs}
+:::
+
+

@@ -11,9 +11,8 @@ author:
 format:
   revealjs: 
     slide-number: true
-    chalkboard: 
-      buttons: false
     preview-links: auto
+    embed-resources: true
   pdf: 
     pdf-engine: pdflatex
     documentclass: article

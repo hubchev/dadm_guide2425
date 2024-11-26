@@ -71,7 +71,7 @@ To convert the Quarto file into the desired document (e.g. a PDF or HTML), "rend
 quarto_render("path/to/dadm_handout.qmd")
 ```
 
-Replace "path/to/temp_apa_en.qmd" with the actual path to the file.
+Replace "path/to/dadm_handout.qmd" with the actual path to the file.
 
 
 # Feedback

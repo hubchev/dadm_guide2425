@@ -15,8 +15,9 @@ date-format: long
 
 abstract: "This document outlines the requirements for successfully contributing to the course through an academic presentation. It introduces the available topics, establishes the standards for both delivery and the creation of accompanying handouts, and provides tips how students can effectively meet the expectations and improve their academic skills."
 
-bibliography: "/home/sthu/Dropbox/LIT/LIT_full.bib"
+bibliography: "literature.bib"
 csl: "https://www.zotero.org/styles/apa"
+
 format:
   html: 
     embed-resources: true
@@ -36,47 +37,39 @@ format:
     
 number-sections: true
 ---
-
 # Assessment methods and criteria 
 
-Students complete this module with an academic presentation.
+Students complete this module with an academic presentation. 
 Mode of the presentation is a in class presentation that takes place during the lecture period. The exact dates are set by the lecturer and communicated via ILIAS. The presentation lasts for a minimum of 10 minutes per student. In addition, a handout should be produced outlining the key theses of the presentation and the literature on which it is based. The length of the handout should be 3-5 pages of text. The handout should be submitted to the lecturer by the date of the presentation at the latest. 
 
 The presentation contributes 65 % to the module grade, the handout contributes 35 %. A passing grade in this module is achieved when the overall grade is greater than or equal to 4.0.
 
 # Topics
 
-The following topics primarily correspond to specific chapters from the book by @Spiegelhalter2019Art. The dates when each presentation will take place are shown in  @tbl-tpcdt. Topics will be randomly assigned to students who have officially registered. I will communicate the assignment on October 17 in class and a bit later on ILIAS.
+The following topics primarily correspond to specific chapters from the book by @Spiegelhalter2019Art. The dates when each presentation will take place are shown in column 1 of  @tbl-tpc. Topics will be randomly assigned to students who have officially registered. I communicate the assignment on October 17 in class and a bit later on ILIAS. The last column of @tbl-tpc contains the assignments, including the initials and matriculation numbers of registered students.
 
-1. Why are we looking at data anyway? Populations and measurements [@Spiegelhalter2019Art, ch. 3]
-1. What causes what? [@Spiegelhalter2019Art, ch. 4]
-1. What is machine learning? [@Starmer2022StatQuest, ch]
-1. Algorithms, analytics and prediction [@Spiegelhalter2019Art, ch. 6]
-1. Data visualization with R [@Kabacoff2024Modern]
-1. How sure can we be about what is going on? Estimates and intervals [@Spiegelhalter2019Art, ch. 7]
-1. Data manipulation with the R package dplyr [@Wickham2023R]
-1. Probability the language of uncertainty and variability [@Spiegelhalter2019Art, ch. 8]
-1. Putting probability and statistics together [@Spiegelhalter2019Art, ch. 10]
-1. Answering questions and claiming discoveries [@Spiegelhalter2019Art, ch. 11]
-1. Learning from experience the Bayesian Way [@Spiegelhalter2019Art, ch. 12]
-1. How things go wrong [@Spiegelhalter2019Art, ch. 13]
-1. How we can do statistics better  [@Spiegelhalter2019Art, ch. 14]
+If you do not see your name on the list but have registered, please inform me as soon as possible. Please note that the presentation day is an official examination day, and failure to attend will result in a grade of 5.0. Ensure you do not miss this important day.
 
-::: {#tbl-tpcdt}
-| Date       | Topic 1                                               | Topic 2                                           |
-|------------|------------------------------------------------------|---------------------------------------------------|
-| 14.11.2024 | Why are we looking at data anyway?                   | What causes what?                                 |
-| 21.11.2024 | What is machine learning?                             | Algorithms, analytics and prediction               |
-| 28.11.2024 | Data visualization with R                          | How sure can we be about what is going on?           |
-| 05.12.2024 | Data manipulation with the R package dplyr | Probability the language of uncertainty and variability |
-| 12.12.2024 | Putting probability and statistics together           | Answering questions and claiming discoveries       |
-| 19.12.2024 | Learning from experience the Bayesian Way            | How things go wrong                                |
-|     tba.       | How we can do statistics better                      |                                                   |
 
-Topics and dates
+
+
+::: {#tbl-tpc}
+
+| Date       | Topic                                                | Literature                                 | Student          |
+|------------|------------------------------------------------------|---------------------------------|-------------|
+| 21.11.2024 | What is machine learning                             | [@Starmer2022StatQuest]                   | AKZ (400391308)  |
+| 28.11.2024 | Algorithms, analytics, and prediction               | [@Spiegelhalter2019Art, ch. 6]            | BP (400394562)   |
+| 05.12.2024 | How sure can we be about what is going on?          | [@Spiegelhalter2019Art, ch. 7]            | JIS (400792151)  |
+| 05.12.2024 | Data manipulation with the R package dplyr           | [@Wickham2023R]                            | MAR (400862115)  |
+| 12.12.2024 | Probability: the language of uncertainty and variability | [@Spiegelhalter2019Art, ch. 8]            | MKF (400797123)  |
+| 12.12.2024 | Putting probability and statistics together and answering questions | [@Spiegelhalter2019Art, ch. 10 and 11]    | NS (400383355)   |
+| 19.12.2024 | How things go wrong and how we can do statistics better | [@Spiegelhalter2019Art, ch. 13 and 14]    | WK (400594759)   |
+| 19.12.2024 | Rational decision making with decision support systems | [@Huber2024Managerial]    | HT (400861287)   |
+| 19.12.2024 | Data mining for decision making  | [@Tan2018Introduction; @Hahsler2024R]    | KR (400383363)   |
+
+
+Topics, students, and dates
 :::
-
-
 
 
 # Content of the presentation and handout

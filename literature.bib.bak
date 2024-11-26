@@ -1,0 +1,114 @@
+% Encoding: UTF-8
+
+@Book{APA2020Publication,
+  title     = {Publication Manual of the {American Psychological Association}},
+  publisher = {American Psychological Association},
+  year      = {2020},
+  author    = {APA},
+  address   = {Washington, D.C.},
+  edition   = {7},
+  timestamp = {2024-08-22},
+}
+
+@Misc{Cochrane2005,
+  author       = {John Cochrane},
+  title        = {Writing Tips for {Ph. D.} Students},
+  howpublished = {online},
+  year         = {2005},
+  file         = {Cochrane2005.pdf:Cochrane2005.pdf:PDF},
+  owner        = {Martina},
+  timestamp    = {2024-08-28},
+  url          = {https://www.johnhcochrane.com/s/phd_paper_writing.pdf},
+}
+
+@Book{Hahsler2024R,
+  title        = {An {R} Companion for Introduction to Data Mining},
+  author       = {Michael Hahsler},
+  date         = {2024},
+  doi          = {10.6084/m9.figshare.26750404},
+  howpublished = {figshare},
+  timestamp    = {2024-11-21},
+  url          = {https://mhahsler.github.io/Introduction_to_Data_Mining_R_Examples/book/},
+}
+
+@Misc{Huber2024Managerial,
+  author    = {Stephan Huber},
+  title     = {Managerial Economics},
+  year      = {2024},
+  subtitle  = {Lecture Notes},
+  timestamp = {2024-06-14},
+  url       = {https://hubchev.github.io/me/},
+}
+
+@TechReport{Nikolov2023Writing,
+  author      = {Plamen Nikolov},
+  title       = {Writing Tips for Crafting Effective Economics Research Papers -- 2023-2024 Edition},
+  institution = {Institute of Labor Economics (IZA)},
+  year        = {2023},
+  type        = {Discussion Paper Series},
+  number      = {16276},
+  file        = {Nikolov2023Writing.pdf:Nikolov2023Writing.pdf:PDF},
+  location    = {Harvard University},
+  timestamp   = {2024-08-28},
+  url         = {https://hdl.handle.net/10419/278974},
+}
+
+@Book{Spiegelhalter2019Art,
+  title     = {The Art of Statistics: Learning From Data},
+  publisher = {Penguin UK},
+  year      = {2019},
+  author    = {Spiegelhalter, David},
+  file      = {Spiegelhalter2019Art.pdf:Spiegelhalter2019Art.pdf:PDF},
+  timestamp = {2024-09-16},
+}
+
+@Book{Starmer2022StatQuest,
+  title     = {The {StatQuest} Illustrated Guide To Machine Learning},
+  publisher = {Independently published},
+  year      = {2022},
+  author    = {Josh Starmer},
+  timestamp = {2023-02-09},
+}
+
+@Book{StrunkJr1999Elements,
+  title     = {The Elements of Style},
+  publisher = {Pearson},
+  year      = {1999},
+  author    = {William {Strunk Jr.} and White, E.B.},
+  edition   = {4},
+  file      = {StrunkJr2003Elements.pdf:StrunkJr2003Elements.pdf:PDF},
+  owner     = {stephan},
+  timestamp = {2024-08-28},
+}
+
+@Book{Tan2018Introduction,
+  title     = {Introduction to Data Mining},
+  publisher = {Pearson},
+  year      = {2018},
+  author    = {Pang-Ning Tan and Michael Steinbach and Vipin Kumar},
+  edition   = {2},
+  file      = {Tan2018Introduction.pdf:Tan2018Introduction.pdf:PDF},
+  timestamp = {2024-11-21},
+}
+
+@Misc{Wickham2023R,
+  author    = {Wickham, Hadley and Grolemund, Garrett},
+  title     = {R for Data Science (2e)},
+  year      = {2023},
+  file      = {Wickham2016R.pdf:pdfs/Wickham2016R.pdf:PDF},
+  timestamp = {2023-02-07},
+  url       = {https://r4ds.hadley.nz/},
+}
+
+@Book{Zinsser2016Writing,
+  title     = {On Writing Well: The Classic Guide to Writing Nonfiction},
+  publisher = {Harper Perennial},
+  year      = {2016},
+  author    = {Zinsser, William},
+  edition   = {30th Anniversary, Paperback Reprint},
+  file      = {Zinsser2016Writing.pdf:Zinsser2016Writing.pdf:PDF},
+  journal   = {New York, NY},
+  timestamp = {2023-02-06},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}

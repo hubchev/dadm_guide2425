@@ -1,0 +1,89 @@
+---
+title: "A Quarto Presentation"
+subtitle: "My subtitle"
+
+author:
+    name: "© Prof. Dr. Stephan Huber"
+    email: stephan.huber@hs-fresenius.de
+    affiliation:
+      - name: Hochschule Fresenius - University of Applied Science
+        url: https://hubchev.github.io/
+format:
+  revealjs: 
+    slide-number: true
+    chalkboard: 
+      buttons: false
+    preview-links: auto
+  pdf: 
+    pdf-engine: pdflatex
+    documentclass: article
+    classoption: [a4paper]
+    fontsize: 11pt
+    geometry:
+      - top=30mm
+      - left=20mm
+      - right=20mm
+      - bottom=30mm
+    colorlinks: true
+    link-citations: true
+    
+bibliography: "literature.bib"
+csl: "https://www.zotero.org/styles/apa"
+---
+
+# In the morning
+
+## Getting up
+
+- Turn off alarm
+- Get out of bed
+
+## Breakfast
+
+- Eat eggs
+- Drink coffee
+
+# In the evening
+
+## Dinner
+
+- Eat spaghetti
+- Drink wine
+
+## Going to sleep
+
+- Get in bed
+- Count sheep
+
+
+# Topics {style="font-size: 50%;"}
+
+The following topics primarily correspond to specific chapters from the book by @Spiegelhalter2019Art. The dates when each presentation will take place are shown in column 1 of  @tbl-tpc. Topics will be randomly assigned to students who have officially registered. I communicate the assignment on October 17 in class and a bit later on ILIAS. The last column of @tbl-tpc contains the assignments, including the initials and matriculation numbers of registered students.
+
+If you do not see your name on the list but have registered, please inform me as soon as possible. Please note that the presentation day is an official examination day, and failure to attend will result in a grade of 5.0. Ensure you do not miss this important day.
+
+---
+
+::: {#tbl-tpc style="font-size: 50%;"} 
+
+| Date       | Topic                                                | Literature                                 | Student          |
+|------------|------------------------------------------------------|---------------------------------|-------------|
+| 21.11.2024 | What is machine learning                             | [@Starmer2022StatQuest]                   | AKZ (400391308)  |
+| 28.11.2024 | Algorithms, analytics, and prediction               | [@Spiegelhalter2019Art, ch. 6]            | BP (400394562)   |
+| 05.12.2024 | How sure can we be about what is going on?          | [@Spiegelhalter2019Art, ch. 7]            | JIS (400792151)  |
+| 05.12.2024 | Data manipulation with the R package dplyr           | [@Wickham2023R]                            | MAR (400862115)  |
+| 12.12.2024 | Probability: the language of uncertainty and variability | [@Spiegelhalter2019Art, ch. 8]            | MKF (400797123)  |
+| 12.12.2024 | Putting probability and statistics together and answering questions | [@Spiegelhalter2019Art, ch. 10 and 11]    | NS (400383355)   |
+| 19.12.2024 | How things go wrong and how we can do statistics better | [@Spiegelhalter2019Art, ch. 13 and 14]    | WK (400594759)   |
+| 19.12.2024 | Rational decision making with decision support systems | [@Huber2024Managerial]    | HT (400861287)   |
+| 19.12.2024 | Data mining for decision making  | [@Tan2018Introduction; @Hahsler2024R]    | KR (400383363)   |
+
+
+Topics, students, and dates
+:::
+
+
+# References
+
+::: {#refs}
+:::
